@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097B54E8160083D2006BECEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B54E7160083D2006BECEB /* UIKit.framework */; };
+		097B54EA160083D2006BECEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B54E9160083D2006BECEB /* Foundation.framework */; };
+		097B54EC160083D2006BECEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B54EB160083D2006BECEB /* CoreGraphics.framework */; };
+		097B54F2160083D2006BECEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 097B54F0160083D2006BECEB /* InfoPlist.strings */; };
+		097B54F4160083D2006BECEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B54F3160083D2006BECEB /* main.m */; };
+		097B54F8160083D2006BECEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B54F7160083D2006BECEB /* AppDelegate.m */; };
+		097B54FB160083D2006BECEB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097B54F9160083D2006BECEB /* MainStoryboard.storyboard */; };
+		097B54FE160083D2006BECEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B54FD160083D2006BECEB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		097B54E3160083D2006BECEB /* MyMuseumExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMuseumExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097B54E7160083D2006BECEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		097B54E9160083D2006BECEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		097B54EB160083D2006BECEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		097B54EF160083D2006BECEB /* MyMuseumExperience-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMuseumExperience-Info.plist"; sourceTree = "<group>"; };
+		097B54F1160083D2006BECEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		097B54F3160083D2006BECEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		097B54F5160083D2006BECEB /* MyMuseumExperience-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMuseumExperience-Prefix.pch"; sourceTree = "<group>"; };
+		097B54F6160083D2006BECEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		097B54F7160083D2006BECEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		097B54FA160083D2006BECEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		097B54FC160083D2006BECEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		097B54FD160083D2006BECEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097B54E0160083D2006BECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097B54E8160083D2006BECEB /* UIKit.framework in Frameworks */,
+				097B54EA160083D2006BECEB /* Foundation.framework in Frameworks */,
+				097B54EC160083D2006BECEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097B54D8160083D2006BECEB = {
+			isa = PBXGroup;
+			children = (
+				097B54ED160083D2006BECEB /* MyMuseumExperience */,
+				097B54E6160083D2006BECEB /* Frameworks */,
+				097B54E4160083D2006BECEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		097B54E4160083D2006BECEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				097B54E3160083D2006BECEB /* MyMuseumExperience.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		097B54E6160083D2006BECEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				097B54E7160083D2006BECEB /* UIKit.framework */,
+				097B54E9160083D2006BECEB /* Foundation.framework */,
+				097B54EB160083D2006BECEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		097B54ED160083D2006BECEB /* MyMuseumExperience */ = {
+			isa = PBXGroup;
+			children = (
+				097B54F6160083D2006BECEB /* AppDelegate.h */,
+				097B54F7160083D2006BECEB /* AppDelegate.m */,
+				097B54F9160083D2006BECEB /* MainStoryboard.storyboard */,
+				097B54FC160083D2006BECEB /* ViewController.h */,
+				097B54FD160083D2006BECEB /* ViewController.m */,
+				097B54EE160083D2006BECEB /* Supporting Files */,
+			);
+			path = MyMuseumExperience;
+			sourceTree = "<group>";
+		};
+		097B54EE160083D2006BECEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				097B54EF160083D2006BECEB /* MyMuseumExperience-Info.plist */,
+				097B54F0160083D2006BECEB /* InfoPlist.strings */,
+				097B54F3160083D2006BECEB /* main.m */,
+				097B54F5160083D2006BECEB /* MyMuseumExperience-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097B54E2160083D2006BECEB /* MyMuseumExperience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097B5501160083D2006BECEB /* Build configuration list for PBXNativeTarget "MyMuseumExperience" */;
+			buildPhases = (
+				097B54DF160083D2006BECEB /* Sources */,
+				097B54E0160083D2006BECEB /* Frameworks */,
+				097B54E1160083D2006BECEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMuseumExperience;
+			productName = MyMuseumExperience;
+			productReference = 097B54E3160083D2006BECEB /* MyMuseumExperience.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		097B54DA160083D2006BECEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Noel Feliciano";
+			};
+			buildConfigurationList = 097B54DD160083D2006BECEB /* Build configuration list for PBXProject "MyMuseumExperience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 097B54D8160083D2006BECEB;
+			productRefGroup = 097B54E4160083D2006BECEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				097B54E2160083D2006BECEB /* MyMuseumExperience */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097B54E1160083D2006BECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097B54F2160083D2006BECEB /* InfoPlist.strings in Resources */,
+				097B54FB160083D2006BECEB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097B54DF160083D2006BECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097B54F4160083D2006BECEB /* main.m in Sources */,
+				097B54F8160083D2006BECEB /* AppDelegate.m in Sources */,
+				097B54FE160083D2006BECEB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		097B54F0160083D2006BECEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097B54F1160083D2006BECEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		097B54F9160083D2006BECEB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097B54FA160083D2006BECEB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		097B54FF160083D2006BECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		097B5500160083D2006BECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		097B5502160083D2006BECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMuseumExperience/MyMuseumExperience-Prefix.pch";
+				INFOPLIST_FILE = "MyMuseumExperience/MyMuseumExperience-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		097B5503160083D2006BECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMuseumExperience/MyMuseumExperience-Prefix.pch";
+				INFOPLIST_FILE = "MyMuseumExperience/MyMuseumExperience-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097B54DD160083D2006BECEB /* Build configuration list for PBXProject "MyMuseumExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097B54FF160083D2006BECEB /* Debug */,
+				097B5500160083D2006BECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097B5501160083D2006BECEB /* Build configuration list for PBXNativeTarget "MyMuseumExperience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097B5502160083D2006BECEB /* Debug */,
+				097B5503160083D2006BECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 097B54DA160083D2006BECEB /* Project object */;
+}
