@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0907BF02162BD5DF00613F32 /* mammoth_elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF01162BD5DF00613F32 /* mammoth_elephant.png */; };
+		0907BF0D162BE4F200613F32 /* forest_animalStory.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF04162BE4F200613F32 /* forest_animalStory.MP4 */; };
+		0907BF0E162BE4F200613F32 /* forest_bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF05162BE4F200613F32 /* forest_bear.png */; };
+		0907BF0F162BE4F200613F32 /* forest_deer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF06162BE4F200613F32 /* forest_deer.png */; };
+		0907BF10162BE4F200613F32 /* forest_elk.png in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF07162BE4F200613F32 /* forest_elk.png */; };
+		0907BF11162BE4F200613F32 /* forest_ending.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF08162BE4F200613F32 /* forest_ending.MP4 */; };
+		0907BF12162BE4F200613F32 /* forest_forestAnimals.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF09162BE4F200613F32 /* forest_forestAnimals.MP4 */; };
+		0907BF13162BE4F200613F32 /* forest_intro.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF0A162BE4F200613F32 /* forest_intro.MP4 */; };
+		0907BF14162BE4F200613F32 /* forest_mountainLion.png in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF0B162BE4F200613F32 /* forest_mountainLion.png */; };
+		0907BF15162BE4F200613F32 /* forestBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0907BF0C162BE4F200613F32 /* forestBackground.png */; };
+		0907BF18162BF0AD00613F32 /* BookSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907BF17162BF0AD00613F32 /* BookSelectionViewController.m */; };
+		0907BF1B162BF36B00613F32 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907BF1A162BF36A00613F32 /* BookViewController.m */; };
+		0938BAAA162AB75100F19300 /* mammoth_ending.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAA6162AB75100F19300 /* mammoth_ending.MP4 */; };
+		0938BAAB162AB75100F19300 /* mammoth_fossil.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAA7162AB75100F19300 /* mammoth_fossil.MP4 */; };
+		0938BAAC162AB75100F19300 /* mammoth_intro.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAA8162AB75100F19300 /* mammoth_intro.MP4 */; };
+		0938BAAD162AB75100F19300 /* mammoth_mammoth.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAA9162AB75100F19300 /* mammoth_mammoth.MP4 */; };
+		0938BAB3162AB7D700F19300 /* mammoth_defaultFossilOne2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAAF162AB7D700F19300 /* mammoth_defaultFossilOne2.png */; };
+		0938BAB4162AB7D700F19300 /* mammoth_defaultFossilTwo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAB0162AB7D700F19300 /* mammoth_defaultFossilTwo2.png */; };
+		0938BAB5162AB7D700F19300 /* mammoth_fossilButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAB1162AB7D700F19300 /* mammoth_fossilButton.png */; };
+		0938BAB6162AB7D700F19300 /* mammoth_mammothButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0938BAB2162AB7D700F19300 /* mammoth_mammothButton.png */; };
+		094CC331160329B50064C02A /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CC330160329B50064C02A /* IntroViewController.m */; };
+		095CCFA91619131000650F2E /* StationSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095CCFA81619131000650F2E /* StationSelectViewController.m */; };
+		095CCFB11619173D00650F2E /* StationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095CCFB01619173D00650F2E /* StationViewController.m */; };
 		097B54E8160083D2006BECEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B54E7160083D2006BECEB /* UIKit.framework */; };
 		097B54EA160083D2006BECEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B54E9160083D2006BECEB /* Foundation.framework */; };
 		097B54EC160083D2006BECEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097B54EB160083D2006BECEB /* CoreGraphics.framework */; };
@@ -15,9 +38,65 @@
 		097B54F8160083D2006BECEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B54F7160083D2006BECEB /* AppDelegate.m */; };
 		097B54FB160083D2006BECEB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097B54F9160083D2006BECEB /* MainStoryboard.storyboard */; };
 		097B54FE160083D2006BECEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097B54FD160083D2006BECEB /* ViewController.m */; };
+		0985A124162C7521005A2DEB /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985A123162C7521005A2DEB /* PageViewController.m */; };
+		0985A128162C7536005A2DEB /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985A127162C7536005A2DEB /* ModelController.m */; };
+		09C73C74162810A6008D188C /* mammothBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C73C73162810A6008D188C /* mammothBackground.png */; };
+		09C814DF16054BE900D8B4F8 /* HelpScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C814DE16054BE900D8B4F8 /* HelpScreenView.xib */; };
+		09C814E316054C0F00D8B4F8 /* HelpScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C814E216054C0F00D8B4F8 /* HelpScreenView.m */; };
+		09C814EE1605512500D8B4F8 /* menu_adultsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C814EB1605512500D8B4F8 /* menu_adultsButton.png */; };
+		09C814EF1605512500D8B4F8 /* menu_kidsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C814EC1605512500D8B4F8 /* menu_kidsButton.png */; };
+		09C814F01605512500D8B4F8 /* menu_mapButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C814ED1605512500D8B4F8 /* menu_mapButton.png */; };
+		09EC63DC1605BA4700CA1AC7 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D21605BA4700CA1AC7 /* images.jpg */; };
+		09EC63DD1605BA4700CA1AC7 /* Mammoth button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D31605BA4700CA1AC7 /* Mammoth button.png */; };
+		09EC63DE1605BA4700CA1AC7 /* Ocean button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D41605BA4700CA1AC7 /* Ocean button.png */; };
+		09EC63DF1605BA4700CA1AC7 /* intro_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D51605BA4700CA1AC7 /* intro_background.png */; };
+		09EC63E01605BA4700CA1AC7 /* intro_ending.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D61605BA4700CA1AC7 /* intro_ending.MP4 */; };
+		09EC63E11605BA4700CA1AC7 /* intro_intro.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D71605BA4700CA1AC7 /* intro_intro.MP4 */; };
+		09EC63E21605BA4700CA1AC7 /* intro_photo.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D81605BA4700CA1AC7 /* intro_photo.MP4 */; };
+		09EC63E31605BA4700CA1AC7 /* intro_photoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63D91605BA4700CA1AC7 /* intro_photoIcon.png */; };
+		09EC63E41605BA4700CA1AC7 /* intro_video.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63DA1605BA4700CA1AC7 /* intro_video.MP4 */; };
+		09EC63E51605BA4700CA1AC7 /* intro_videoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63DB1605BA4700CA1AC7 /* intro_videoIcon.png */; };
+		09EC63E81606947B00CA1AC7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EC63E71606947B00CA1AC7 /* MediaPlayer.framework */; };
+		09EC63ED1606A10400CA1AC7 /* cameraButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63EA1606A10400CA1AC7 /* cameraButton.png */; };
+		09EC63EE1606A10400CA1AC7 /* doneButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63EB1606A10400CA1AC7 /* doneButton.png */; };
+		09EC63EF1606A10400CA1AC7 /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63EC1606A10400CA1AC7 /* recordButton.png */; };
+		09EC63FB16070A4600CA1AC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EC63FA16070A4600CA1AC7 /* MobileCoreServices.framework */; };
+		09EC640216070F4100CA1AC7 /* birdsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63FD16070F4100CA1AC7 /* birdsButton.png */; };
+		09EC640316070F4100CA1AC7 /* forestButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63FE16070F4100CA1AC7 /* forestButton.png */; };
+		09EC640416070F4100CA1AC7 /* mammothButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC63FF16070F4100CA1AC7 /* mammothButton.png */; };
+		09EC640516070F4100CA1AC7 /* oceanButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC640016070F4100CA1AC7 /* oceanButton.png */; };
+		09EC640616070F4100CA1AC7 /* shoreButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EC640116070F4100CA1AC7 /* shoreButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0907BF01162BD5DF00613F32 /* mammoth_elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mammoth_elephant.png; path = Mammoth/mammoth_elephant.png; sourceTree = "<group>"; };
+		0907BF04162BE4F200613F32 /* forest_animalStory.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = forest_animalStory.MP4; sourceTree = "<group>"; };
+		0907BF05162BE4F200613F32 /* forest_bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_bear.png; sourceTree = "<group>"; };
+		0907BF06162BE4F200613F32 /* forest_deer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_deer.png; sourceTree = "<group>"; };
+		0907BF07162BE4F200613F32 /* forest_elk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_elk.png; sourceTree = "<group>"; };
+		0907BF08162BE4F200613F32 /* forest_ending.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = forest_ending.MP4; sourceTree = "<group>"; };
+		0907BF09162BE4F200613F32 /* forest_forestAnimals.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = forest_forestAnimals.MP4; sourceTree = "<group>"; };
+		0907BF0A162BE4F200613F32 /* forest_intro.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = forest_intro.MP4; sourceTree = "<group>"; };
+		0907BF0B162BE4F200613F32 /* forest_mountainLion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_mountainLion.png; sourceTree = "<group>"; };
+		0907BF0C162BE4F200613F32 /* forestBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forestBackground.png; sourceTree = "<group>"; };
+		0907BF16162BF0AD00613F32 /* BookSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookSelectionViewController.h; sourceTree = "<group>"; };
+		0907BF17162BF0AD00613F32 /* BookSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookSelectionViewController.m; sourceTree = "<group>"; };
+		0907BF19162BF36A00613F32 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		0907BF1A162BF36A00613F32 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		0938BAA6162AB75100F19300 /* mammoth_ending.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = mammoth_ending.MP4; path = Mammoth/mammoth_ending.MP4; sourceTree = "<group>"; };
+		0938BAA7162AB75100F19300 /* mammoth_fossil.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = mammoth_fossil.MP4; path = Mammoth/mammoth_fossil.MP4; sourceTree = "<group>"; };
+		0938BAA8162AB75100F19300 /* mammoth_intro.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = mammoth_intro.MP4; path = Mammoth/mammoth_intro.MP4; sourceTree = "<group>"; };
+		0938BAA9162AB75100F19300 /* mammoth_mammoth.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = mammoth_mammoth.MP4; path = Mammoth/mammoth_mammoth.MP4; sourceTree = "<group>"; };
+		0938BAAF162AB7D700F19300 /* mammoth_defaultFossilOne2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mammoth_defaultFossilOne2.png; path = Mammoth/mammoth_defaultFossilOne2.png; sourceTree = "<group>"; };
+		0938BAB0162AB7D700F19300 /* mammoth_defaultFossilTwo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mammoth_defaultFossilTwo2.png; path = Mammoth/mammoth_defaultFossilTwo2.png; sourceTree = "<group>"; };
+		0938BAB1162AB7D700F19300 /* mammoth_fossilButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mammoth_fossilButton.png; path = Mammoth/mammoth_fossilButton.png; sourceTree = "<group>"; };
+		0938BAB2162AB7D700F19300 /* mammoth_mammothButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mammoth_mammothButton.png; path = Mammoth/mammoth_mammothButton.png; sourceTree = "<group>"; };
+		094CC32F160329B50064C02A /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		094CC330160329B50064C02A /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		095CCFA71619131000650F2E /* StationSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationSelectViewController.h; sourceTree = "<group>"; };
+		095CCFA81619131000650F2E /* StationSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationSelectViewController.m; sourceTree = "<group>"; };
+		095CCFAF1619173D00650F2E /* StationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationViewController.h; sourceTree = "<group>"; };
+		095CCFB01619173D00650F2E /* StationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationViewController.m; sourceTree = "<group>"; };
 		097B54E3160083D2006BECEB /* MyMuseumExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMuseumExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		097B54E7160083D2006BECEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		097B54E9160083D2006BECEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +110,37 @@
 		097B54FA160083D2006BECEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		097B54FC160083D2006BECEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		097B54FD160083D2006BECEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0985A122162C7521005A2DEB /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		0985A123162C7521005A2DEB /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		0985A126162C7536005A2DEB /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		0985A127162C7536005A2DEB /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		09C73C73162810A6008D188C /* mammothBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mammothBackground.png; path = Mammoth/mammothBackground.png; sourceTree = "<group>"; };
+		09C814DE16054BE900D8B4F8 /* HelpScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpScreenView.xib; sourceTree = "<group>"; };
+		09C814E116054C0F00D8B4F8 /* HelpScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpScreenView.h; sourceTree = "<group>"; };
+		09C814E216054C0F00D8B4F8 /* HelpScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpScreenView.m; sourceTree = "<group>"; };
+		09C814EB1605512500D8B4F8 /* menu_adultsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_adultsButton.png; sourceTree = "<group>"; };
+		09C814EC1605512500D8B4F8 /* menu_kidsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_kidsButton.png; sourceTree = "<group>"; };
+		09C814ED1605512500D8B4F8 /* menu_mapButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_mapButton.png; sourceTree = "<group>"; };
+		09EC63D21605BA4700CA1AC7 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		09EC63D31605BA4700CA1AC7 /* Mammoth button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mammoth button.png"; sourceTree = "<group>"; };
+		09EC63D41605BA4700CA1AC7 /* Ocean button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ocean button.png"; sourceTree = "<group>"; };
+		09EC63D51605BA4700CA1AC7 /* intro_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_background.png; sourceTree = "<group>"; };
+		09EC63D61605BA4700CA1AC7 /* intro_ending.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_ending.MP4; sourceTree = "<group>"; };
+		09EC63D71605BA4700CA1AC7 /* intro_intro.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_intro.MP4; sourceTree = "<group>"; };
+		09EC63D81605BA4700CA1AC7 /* intro_photo.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_photo.MP4; sourceTree = "<group>"; };
+		09EC63D91605BA4700CA1AC7 /* intro_photoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_photoIcon.png; sourceTree = "<group>"; };
+		09EC63DA1605BA4700CA1AC7 /* intro_video.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_video.MP4; sourceTree = "<group>"; };
+		09EC63DB1605BA4700CA1AC7 /* intro_videoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_videoIcon.png; sourceTree = "<group>"; };
+		09EC63E71606947B00CA1AC7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		09EC63EA1606A10400CA1AC7 /* cameraButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraButton.png; sourceTree = "<group>"; };
+		09EC63EB1606A10400CA1AC7 /* doneButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneButton.png; sourceTree = "<group>"; };
+		09EC63EC1606A10400CA1AC7 /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+		09EC63FA16070A4600CA1AC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		09EC63FD16070F4100CA1AC7 /* birdsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdsButton.png; sourceTree = "<group>"; };
+		09EC63FE16070F4100CA1AC7 /* forestButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forestButton.png; sourceTree = "<group>"; };
+		09EC63FF16070F4100CA1AC7 /* mammothButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mammothButton.png; sourceTree = "<group>"; };
+		09EC640016070F4100CA1AC7 /* oceanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oceanButton.png; sourceTree = "<group>"; };
+		09EC640116070F4100CA1AC7 /* shoreButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoreButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +148,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EC63FB16070A4600CA1AC7 /* MobileCoreServices.framework in Frameworks */,
+				09EC63E81606947B00CA1AC7 /* MediaPlayer.framework in Frameworks */,
 				097B54E8160083D2006BECEB /* UIKit.framework in Frameworks */,
 				097B54EA160083D2006BECEB /* Foundation.framework in Frameworks */,
 				097B54EC160083D2006BECEB /* CoreGraphics.framework in Frameworks */,
@@ -47,6 +159,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0907BF03162BE4F200613F32 /* Forest */ = {
+			isa = PBXGroup;
+			children = (
+				0907BF04162BE4F200613F32 /* forest_animalStory.MP4 */,
+				0907BF05162BE4F200613F32 /* forest_bear.png */,
+				0907BF06162BE4F200613F32 /* forest_deer.png */,
+				0907BF07162BE4F200613F32 /* forest_elk.png */,
+				0907BF08162BE4F200613F32 /* forest_ending.MP4 */,
+				0907BF09162BE4F200613F32 /* forest_forestAnimals.MP4 */,
+				0907BF0A162BE4F200613F32 /* forest_intro.MP4 */,
+				0907BF0B162BE4F200613F32 /* forest_mountainLion.png */,
+				0907BF0C162BE4F200613F32 /* forestBackground.png */,
+			);
+			path = Forest;
+			sourceTree = "<group>";
+		};
 		097B54D8160083D2006BECEB = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +195,8 @@
 		097B54E6160083D2006BECEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09EC63FA16070A4600CA1AC7 /* MobileCoreServices.framework */,
+				09EC63E71606947B00CA1AC7 /* MediaPlayer.framework */,
 				097B54E7160083D2006BECEB /* UIKit.framework */,
 				097B54E9160083D2006BECEB /* Foundation.framework */,
 				097B54EB160083D2006BECEB /* CoreGraphics.framework */,
@@ -82,6 +212,22 @@
 				097B54F9160083D2006BECEB /* MainStoryboard.storyboard */,
 				097B54FC160083D2006BECEB /* ViewController.h */,
 				097B54FD160083D2006BECEB /* ViewController.m */,
+				094CC32F160329B50064C02A /* IntroViewController.h */,
+				094CC330160329B50064C02A /* IntroViewController.m */,
+				095CCFA71619131000650F2E /* StationSelectViewController.h */,
+				095CCFA81619131000650F2E /* StationSelectViewController.m */,
+				095CCFAF1619173D00650F2E /* StationViewController.h */,
+				095CCFB01619173D00650F2E /* StationViewController.m */,
+				0907BF16162BF0AD00613F32 /* BookSelectionViewController.h */,
+				0907BF17162BF0AD00613F32 /* BookSelectionViewController.m */,
+				0907BF19162BF36A00613F32 /* BookViewController.h */,
+				0907BF1A162BF36A00613F32 /* BookViewController.m */,
+				0985A122162C7521005A2DEB /* PageViewController.h */,
+				0985A123162C7521005A2DEB /* PageViewController.m */,
+				0985A126162C7536005A2DEB /* ModelController.h */,
+				0985A127162C7536005A2DEB /* ModelController.m */,
+				09C73C6C16280CA0008D188C /* Help */,
+				09C814E81605512500D8B4F8 /* Resources */,
 				097B54EE160083D2006BECEB /* Supporting Files */,
 			);
 			path = MyMuseumExperience;
@@ -96,6 +242,111 @@
 				097B54F5160083D2006BECEB /* MyMuseumExperience-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09C73C6C16280CA0008D188C /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				09C814E116054C0F00D8B4F8 /* HelpScreenView.h */,
+				09C814E216054C0F00D8B4F8 /* HelpScreenView.m */,
+				09C814DE16054BE900D8B4F8 /* HelpScreenView.xib */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		09C73C6E16280FCA008D188C /* Mammoth */ = {
+			isa = PBXGroup;
+			children = (
+				0938BAA6162AB75100F19300 /* mammoth_ending.MP4 */,
+				0938BAA7162AB75100F19300 /* mammoth_fossil.MP4 */,
+				0938BAA8162AB75100F19300 /* mammoth_intro.MP4 */,
+				0938BAA9162AB75100F19300 /* mammoth_mammoth.MP4 */,
+				09C73C73162810A6008D188C /* mammothBackground.png */,
+				0938BAAF162AB7D700F19300 /* mammoth_defaultFossilOne2.png */,
+				0938BAB0162AB7D700F19300 /* mammoth_defaultFossilTwo2.png */,
+				0938BAB1162AB7D700F19300 /* mammoth_fossilButton.png */,
+				0938BAB2162AB7D700F19300 /* mammoth_mammothButton.png */,
+				0907BF01162BD5DF00613F32 /* mammoth_elephant.png */,
+			);
+			name = Mammoth;
+			sourceTree = "<group>";
+		};
+		09C814E81605512500D8B4F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09C73C6E16280FCA008D188C /* Mammoth */,
+				0907BF03162BE4F200613F32 /* Forest */,
+				09EC63D01605BA4700CA1AC7 /* Intro */,
+				09C814E91605512500D8B4F8 /* Menu */,
+				09EC63E91606A10400CA1AC7 /* Universal Icons */,
+				09EC63FC16070F4100CA1AC7 /* Selection */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09C814E91605512500D8B4F8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				09C814EA1605512500D8B4F8 /* Images */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		09C814EA1605512500D8B4F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09C814EB1605512500D8B4F8 /* menu_adultsButton.png */,
+				09C814EC1605512500D8B4F8 /* menu_kidsButton.png */,
+				09C814ED1605512500D8B4F8 /* menu_mapButton.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		09EC63D01605BA4700CA1AC7 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				09EC63D11605BA4700CA1AC7 /* Images */,
+				09EC63D51605BA4700CA1AC7 /* intro_background.png */,
+				09EC63D61605BA4700CA1AC7 /* intro_ending.MP4 */,
+				09EC63D71605BA4700CA1AC7 /* intro_intro.MP4 */,
+				09EC63D81605BA4700CA1AC7 /* intro_photo.MP4 */,
+				09EC63D91605BA4700CA1AC7 /* intro_photoIcon.png */,
+				09EC63DA1605BA4700CA1AC7 /* intro_video.MP4 */,
+				09EC63DB1605BA4700CA1AC7 /* intro_videoIcon.png */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		09EC63D11605BA4700CA1AC7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09EC63D21605BA4700CA1AC7 /* images.jpg */,
+				09EC63D31605BA4700CA1AC7 /* Mammoth button.png */,
+				09EC63D41605BA4700CA1AC7 /* Ocean button.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		09EC63E91606A10400CA1AC7 /* Universal Icons */ = {
+			isa = PBXGroup;
+			children = (
+				09EC63EA1606A10400CA1AC7 /* cameraButton.png */,
+				09EC63EB1606A10400CA1AC7 /* doneButton.png */,
+				09EC63EC1606A10400CA1AC7 /* recordButton.png */,
+			);
+			path = "Universal Icons";
+			sourceTree = "<group>";
+		};
+		09EC63FC16070F4100CA1AC7 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				09EC63FD16070F4100CA1AC7 /* birdsButton.png */,
+				09EC63FE16070F4100CA1AC7 /* forestButton.png */,
+				09EC63FF16070F4100CA1AC7 /* mammothButton.png */,
+				09EC640016070F4100CA1AC7 /* oceanButton.png */,
+				09EC640116070F4100CA1AC7 /* shoreButton.png */,
+			);
+			path = Selection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +402,47 @@
 			files = (
 				097B54F2160083D2006BECEB /* InfoPlist.strings in Resources */,
 				097B54FB160083D2006BECEB /* MainStoryboard.storyboard in Resources */,
+				09C814DF16054BE900D8B4F8 /* HelpScreenView.xib in Resources */,
+				09C814EE1605512500D8B4F8 /* menu_adultsButton.png in Resources */,
+				09C814EF1605512500D8B4F8 /* menu_kidsButton.png in Resources */,
+				09C814F01605512500D8B4F8 /* menu_mapButton.png in Resources */,
+				09EC63DC1605BA4700CA1AC7 /* images.jpg in Resources */,
+				09EC63DD1605BA4700CA1AC7 /* Mammoth button.png in Resources */,
+				09EC63DE1605BA4700CA1AC7 /* Ocean button.png in Resources */,
+				09EC63DF1605BA4700CA1AC7 /* intro_background.png in Resources */,
+				09EC63E01605BA4700CA1AC7 /* intro_ending.MP4 in Resources */,
+				09EC63E11605BA4700CA1AC7 /* intro_intro.MP4 in Resources */,
+				09EC63E21605BA4700CA1AC7 /* intro_photo.MP4 in Resources */,
+				09EC63E31605BA4700CA1AC7 /* intro_photoIcon.png in Resources */,
+				09EC63E41605BA4700CA1AC7 /* intro_video.MP4 in Resources */,
+				09EC63E51605BA4700CA1AC7 /* intro_videoIcon.png in Resources */,
+				09EC63ED1606A10400CA1AC7 /* cameraButton.png in Resources */,
+				09EC63EE1606A10400CA1AC7 /* doneButton.png in Resources */,
+				09EC63EF1606A10400CA1AC7 /* recordButton.png in Resources */,
+				09EC640216070F4100CA1AC7 /* birdsButton.png in Resources */,
+				09EC640316070F4100CA1AC7 /* forestButton.png in Resources */,
+				09EC640416070F4100CA1AC7 /* mammothButton.png in Resources */,
+				09EC640516070F4100CA1AC7 /* oceanButton.png in Resources */,
+				09EC640616070F4100CA1AC7 /* shoreButton.png in Resources */,
+				09C73C74162810A6008D188C /* mammothBackground.png in Resources */,
+				0938BAAA162AB75100F19300 /* mammoth_ending.MP4 in Resources */,
+				0938BAAB162AB75100F19300 /* mammoth_fossil.MP4 in Resources */,
+				0938BAAC162AB75100F19300 /* mammoth_intro.MP4 in Resources */,
+				0938BAAD162AB75100F19300 /* mammoth_mammoth.MP4 in Resources */,
+				0938BAB3162AB7D700F19300 /* mammoth_defaultFossilOne2.png in Resources */,
+				0938BAB4162AB7D700F19300 /* mammoth_defaultFossilTwo2.png in Resources */,
+				0938BAB5162AB7D700F19300 /* mammoth_fossilButton.png in Resources */,
+				0938BAB6162AB7D700F19300 /* mammoth_mammothButton.png in Resources */,
+				0907BF02162BD5DF00613F32 /* mammoth_elephant.png in Resources */,
+				0907BF0D162BE4F200613F32 /* forest_animalStory.MP4 in Resources */,
+				0907BF0E162BE4F200613F32 /* forest_bear.png in Resources */,
+				0907BF0F162BE4F200613F32 /* forest_deer.png in Resources */,
+				0907BF10162BE4F200613F32 /* forest_elk.png in Resources */,
+				0907BF11162BE4F200613F32 /* forest_ending.MP4 in Resources */,
+				0907BF12162BE4F200613F32 /* forest_forestAnimals.MP4 in Resources */,
+				0907BF13162BE4F200613F32 /* forest_intro.MP4 in Resources */,
+				0907BF14162BE4F200613F32 /* forest_mountainLion.png in Resources */,
+				0907BF15162BE4F200613F32 /* forestBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +456,14 @@
 				097B54F4160083D2006BECEB /* main.m in Sources */,
 				097B54F8160083D2006BECEB /* AppDelegate.m in Sources */,
 				097B54FE160083D2006BECEB /* ViewController.m in Sources */,
+				094CC331160329B50064C02A /* IntroViewController.m in Sources */,
+				09C814E316054C0F00D8B4F8 /* HelpScreenView.m in Sources */,
+				095CCFA91619131000650F2E /* StationSelectViewController.m in Sources */,
+				095CCFB11619173D00650F2E /* StationViewController.m in Sources */,
+				0907BF18162BF0AD00613F32 /* BookSelectionViewController.m in Sources */,
+				0907BF1B162BF36B00613F32 /* BookViewController.m in Sources */,
+				0985A124162C7521005A2DEB /* PageViewController.m in Sources */,
+				0985A128162C7536005A2DEB /* ModelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +579,7 @@
 				097B5503160083D2006BECEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
